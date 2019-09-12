@@ -2,11 +2,9 @@
 /**
  * Adapters
  */
-exports.USB     = require('./adapter/usb');
 exports.Serial  = require('./adapter/serial');
 exports.Network = require('./adapter/network');
 exports.Console = require('./adapter/console');
-exports.Bluetooth = require('./adapter/bluetooth');
 
 /**
  * Printer Supports
